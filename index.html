@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Land Page
+    </title>
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <div id="hovertext">
+                <h3 class="jump">T</h3>
+                <h3 class="jump">h</h3>
+                <h3 class="jump">e</h3>
+                <span id="sname">
+                    <h3 class="jump">W</h3>
+                    <h3 class="jump">e</h3>
+                    <h3 class="jump">a</h3>
+                    <h3 class="jump">t</h3>
+                    <h3 class="jump">h</h3>
+                    <h3 class="jump">e</h3>
+                    <h3 class="jump">r</h3>
+                </span>
+            </div>
+            <h5 class="tag">Know weather of your city...</h5>
+            <div>
+                <h1 class="temp">16&#176 + "C" </h1>
+                <div class="city-time">
+                    <h1 class="name">Mumbai, India</h1>
+                    <small>
+                        <span class="time">06:09</span>
+                        -
+                        <span class="date">Thursday 16, Jun 16</span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="./icons/day/113.png" alt="icon" class="icon" width="50" height="50" />
+                    <span class="condition">Cloudy
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search Location..." />
+                <button type="submit" class="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <ul class="cities">
+                <li class="city">Delhi</li>
+                <li class="city">Bangalore</li>
+                <li class="city">Hyderabad</li>
+                <li class="city">Bangalore</li>
+                <li class="city">Kolkata</li>
+                <li class="city">Jaipur</li>
+                <li class="city">Pune</li>
+                <li class="city">Ahmedabad</li>
+                <li class="city">Toronto</li>
+                <li class="city">London</li>
+                <li class="city">Paris</li>
+                <li class="city">New York</li>
+            </ul>
+
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <i class="fas fa-cloud"></i>
+                    <span class="icon">Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <i class="fas fa-tint"></i>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <i class="fas fa-wind"></i>
+                    <span>Wind</span>
+                    <span class="wind">8km/h</span>
+                </li>
+                <li>
+                    <img src="./icons/day/wind-direction.png" alt="icon" class="icon" width="20" height="20" />
+                    <span>Wind Direction</span>
+                    <span class="windDir">W</span>
+                </li>
+                <li>
+                    <img src="./icons/day/pressure-48.png" alt="icon" class="icon" width="20" height="20" />
+                    <span>Pressure</span>
+                    <span class="pressure">1000 MM</span>
+                </li>
+            </ul>
+            <div class="container-creator">
+                <p class="created-by">
+                    <a href="https://github.com/AmanJain18/The-Weather" target="_blank" class="created-by">Open-source
+                        code</a> by
+                    <a href="https://www.linkedin.com/in/amanjainpvt/" target="_blank" class="created-by">
+                        Aman Jain</a> ☁ 2021
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
